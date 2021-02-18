@@ -12,31 +12,31 @@ print('''
 
 *     - [ Report InstaGram ] -           *
 
-*      Tool developer -> : M3GON         *    
+*      Tool developer -> : SHAFEQ        *    
 
-*      InstaGram developer -> : _m3gon   *     
+*      InstaGram developer -> : sha_fo_ka  *     
 
-*      Channel TeleGram -> : @M3GONPY    *     
+*      snap chat           -> : @br35308    *     
 
 ******************************************
 
 ''')
 
-print('[+] عندك خيارين :')
+print('[+] danaya hal bzhera :')
 
-print('[+] الخيار الاول - ابلاغ اربع بلاغات دفعه وحده اكتب رقم - 1')
+print('[+] bo spam u shte tr')
 
-print('[+] الخيار الثاني - تختار البلاغ من نفسك اكتب رقم - 2')
+print('[+] bo lek chwan dn ')
 
-alr8m = input('[+] ادخل الرقم ==> : ')
+alr8m = input('[+] raqame bnusa ==> : ')
 
 if alr8m == '1':
 
-    print('[!] يفضل انك تستخدم حساب وهمي ..')
+    print('[!] acc daxl ka..')
 
-    username = input('[+] ادخل اليوزر لتسجيل الدخول ==> : ')
+    username = input('[+] usare xot bnusa ==> : ')
 
-    password = input('[+] ادخل باسورد الحساب ==> : ')
+    password = input('[+] pass xot bnusa ==> : ')
 
     url = 'https://www.instagram.com/accounts/login/ajax/'
 
@@ -96,19 +96,19 @@ if alr8m == '1':
 
         r.headers.update({'X-CSRFToken': req_login.cookies['csrftoken']})
 
-        print('[+] تم تسجيل الدخول بنجاح ..')
+        print('[+] ba sar kawtue daxl bu ..')
 
     else:
 
-        print('[+] اليوزر او الباسورد غلط')
+        print('[+] user u pass xalata')
 
     sessionid1 = req_login.cookies['sessionid']
 
-    print('[+] خش الرابط هاذا ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
+    print('[+] bro aw linka ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
 
-    print('[+] واكتب يوزر الشخص وانسخ ايديه والصقه ..')
+    print('[+] nawi kabra lawe bnusa id copy ka ..')
 
-    idinsta = input('[+] ادخل ايدي الضحيه ==> : ')
+    idinsta = input('[+] id bnusa ==> : ')
 
     url_report_spam = f'https://www.instagram.com/users/{idinsta}/report/'
 
@@ -316,71 +316,71 @@ if alr8m == '1':
 
         if '"description":"Your reports help keep our community free of spam.","status":"ok"' in req_report_spam:
 
-            print(f'[+] تم الابلاغ النوع - سبام = مزعج ')
+            print(f'[+] spam kra @shafo ')
 
             time.sleep(3)
 
         else:
 
-            print('[-] حدث خطاء في الابلاغ نوع الابلاغ - سبام = مزعج')
+            print('[-] spam nakra sore')
 
         req_report_self = requests.post(url_report_self, data=data_report_self, headers=headers_report_self).text
 
         if '"description":"We take your reports seriously. We look into every issue, and take action when people violate our Community Guidelines","status":"ok"' in req_report_self:
 
-            print('[+] تم الابلاغ النوع - سيلف')
+            print('[+] self kra @shafo')
 
             time.sleep(3)
 
         else:
 
-            print('[-] حدث خطاء في الابلاغ نوع الابلاغ - سيلف')
+            print('[-] self nakra')
 
         req_report_ant7ar = requests.post(url_report_ant7ar, data=data_report_ant7ar, headers=headers_report_ant7ar).text
 
         if '"description":"We take your reports seriously. We look into every issue, and take action when people violate our Community Guidelines","status":"ok"' in req_report_ant7ar:
 
-            print('[+] تم الابلاغ النوع - انتحار')
+            print('[+] self kra')
 
             time.sleep(3)
 
         else:
 
-            print('[-] حدث خطاء في الابلاغ النوع - انتحار')
+            print('[-] self nakra')
 
         req_report_3nf = requests.post(url_report_3nf, data=data_report_3nf, headers=headers_report_3nf).text
 
         if '"description":"We take your reports seriously. We look into every issue, and take action when people violate our Community Guidelines","status":"ok"' in req_report_3nf:
 
-            print('[+] تم الابلاغ النوع - عنف')
+            print('[+] me kra')
 
             time.sleep(3)
 
         else:
 
-            print('[-] حدث خطاء في الابلاغ نوع الابلاغ - عنف ')
+            print('[-] me nakra ')
 
 if alr8m == '2':
 
     print('انواع البلاغات المتوفره حاليا :')
 
-    print('[+] النوع الاول - سبام اكتب رقم - 1')
+    print('[+] 1 -bo spam raqm ')
 
-    print('[+] النوع الثاني - سيلف اكتب رقم - 2')
+    print('[+] 2-bo self')
 
-    print('[+] النوع الثالث - انتحار اكتب رقم - 3')
+    print('[+] 3-bo khokuzhi')
 
-    print('[+] النوع الرابع - عنف اكتب رقم - 4')
+    print('[+] 4-bo me ')
 
-    alr8m2 = input('[+] اكتب الرقم ==> : ')
+    alr8m2 = input('[+] zhmaraya dagra ==> : ')
 
     if alr8m2 == '1':
 
-        print('[!] يفضل انك تستخدم حساب وهمي ..')
+        print('[!] acc daxl ka ..')
 
-        username_login = input('[+] ادخل اليوزر لتسجيل الدخول ==> : ')
+        username_login = input('[+] user bmusa ==> : ')
 
-        password_login = input('[+] ادخل باسورد الحساب ==> : ')
+        password_login = input('[+] pass bnusa ==> : ')
 
         url_login = 'https://www.instagram.com/accounts/login/ajax/'
 
