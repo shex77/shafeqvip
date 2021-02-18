@@ -318,7 +318,7 @@ if alr8m == '1':
 
             print(f'[+] spam kra @shafo ')
 
-            time.sleep(1)
+            time.sleep(3)
 
         else:
 
