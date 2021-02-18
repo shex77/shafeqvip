@@ -24,9 +24,9 @@ print('''
 
 print('[+] danaya hal bzhera :')
 
-print('[+] bo spam u shte tr')
+print('[+] hamu jor')
 
-print('[+] bo lek chwan dn ')
+print('[+] halbzharda ')
 
 alr8m = input('[+] raqame bnusa ==> : ')
 
@@ -362,7 +362,7 @@ if alr8m == '1':
 
 if alr8m == '2':
 
-    print('انواع البلاغات المتوفره حاليا :')
+    print('shewazakan :')
 
     print('[+] 1 -bo spam raqm ')
 
@@ -440,19 +440,19 @@ if alr8m == '2':
 
             r.headers.update({'X-CSRFToken': req_login2.cookies['csrftoken']})
 
-            print('[+] تم تسجيل الدخول بنجاح ..')
+            print('[+] daxil bue ..')
 
         else:
 
-            print('[+] اليوزر او الباسورد غلط')
+            print('[+] user u pass xalata')
 
         sessionid2 = req_login2.cookies['sessionid']
 
-        print('[+] خش الرابط هاذا ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
+        print('[+] bro aw linka  ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
 
-        print('[+] واكتب يوزر الشخص وانسخ ايديه والصقه ..')
+        print('[+] nawe kasaka lawe bnusa id copy ka ..')
 
-        idinsta2 = input('[+] ادخل ايدي الضحيه ==> : ')
+        idinsta2 = input('[+] id dane ==> : ')
 
         url_report_spam2 = f'https://www.instagram.com/users/{idinsta2}/report/'
 
@@ -510,21 +510,21 @@ if alr8m == '2':
 
             if '"description":"Your reports help keep our community free of spam.","status":"ok"' in req_spam2:
 
-                print(f'[+] تم الابلاغ النوع - سبام = مزعج ')
+                print(f'[+] SPAM KRA @SHAFO UP')
 
                 time.sleep(3)
 
             else:
 
-                print('[-] حدث خطاء في الابلاغ نوع الابلاغ - سبام = مزعج')
+                print('[-] SPAM NAKRA @SHAFO DAWN')
 
     if alr8m2 == '2':
 
-        print('[!] يفضل انك تستخدم حساب وهمي ..')
+        print('[!] acc daxl ka..')
 
-        username_login3 = input('[+] ادخل اليوزر لتسجيل الدخول ==> : ')
+        username_login3 = input('[+] user xot bnusa==> : ')
 
-        password_login3 = input('[+] ادخل باسورد الحساب ==> : ')
+        password_login3 = input('[+] pass xot bnusa==> : ')
 
         url_login3 = 'https://www.instagram.com/accounts/login/ajax/'
 
@@ -584,19 +584,19 @@ if alr8m == '2':
 
             r.headers.update({'X-CSRFToken': req_login3.cookies['csrftoken']})
 
-            print('[+] تم تسجيل الدخول بنجاح ..')
+            print('[+] chuya zhurawa..')
 
         else:
 
-            print('[+] اليوزر او الباسورد غلط')
+            print('[+] nachuya zhurawa dlnya bawa')
 
         sessionid3 = req_login3.cookies['sessionid']
 
-        print('[+] خش الرابط هاذا ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
+        print('[+] bro aw linka==> : https://codeofaninja.com/tools/find-instagram-user-id/')
 
-        print('[+] واكتب يوزر الشخص وانسخ ايديه والصقه ..')
+        print('[+] user xot ..')
 
-        idinsta3 = input('[+] ادخل ايدي الضحيه ==> : ')
+        idinsta3 = input('[+] pass xot ==> : ')
 
         url_report_self2 = f'https://www.instagram.com/users/{idinsta3}/report/'
 
@@ -654,21 +654,21 @@ if alr8m == '2':
 
             if '"description":"We take your reports seriously. We look into every issue, and take action when people violate our Community Guidelines","status":"ok"' in req_self:
 
-                print('[+] تم الابلاغ النوع - سيلف')
+                print('[+] self kra @shafo up')
 
                 time.sleep(3)
 
             else:
 
-                print('[-] حدث خطاء في الابلاغ نوع الابلاغ - سيلف')
+                print('[-] self nakra @shafo dawn')
 
     if alr8m2 == '3':
 
-        print('[!] يفضل انك تستخدم حساب وهمي ..')
+        print('[!] acc daxl ka..')
 
-        username_login4 = input('[+] ادخل اليوزر لتسجيل الدخول ==> : ')
+        username_login4 = input('[+] user xot==> : ')
 
-        password_login4 = input('[+] ادخل باسورد الحساب ==> : ')
+        password_login4 = input('[+] pass xot ==> : ')
 
         url_login4 = 'https://www.instagram.com/accounts/login/ajax/'
 
@@ -728,19 +728,19 @@ if alr8m == '2':
 
             r.headers.update({'X-CSRFToken': req_login4.cookies['csrftoken']})
 
-            print('[+] تم تسجيل الدخول بنجاح ..')
+            print('[+] chuya zhurawa..')
 
         else:
 
-            print('[+] اليوزر او الباسورد غلط')
+            print('[+] user u pass xalata')
 
         sessionid4 = req_login4.cookies['sessionid']
 
-        print('[+] خش الرابط هاذا ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
+        print('[+] bro aw linka==> : https://codeofaninja.com/tools/find-instagram-user-id/')
 
-        print('[+] واكتب يوزر الشخص وانسخ ايديه والصقه ..')
+        print('[+] nawe kabra lawe bnusa id copy ka..')
 
-        idinsta4 = input('[+] ادخل ايدي الضحيه ==> : ')
+        idinsta4 = input('[+] id bnusa ==> : ')
 
         url_report_ant7ar2 = f'https://www.instagram.com/users/{idinsta4}/report/'
 
@@ -798,21 +798,21 @@ if alr8m == '2':
 
             if '"description":"We take your reports seriously. We look into every issue, and take action when people violate our Community Guidelines","status":"ok"' in req_ant7ar:
 
-                print('[+] تم الابلاغ النوع - انتحار')
+                print('[+] rep kho kuzhi')
 
                 time.sleep(3)
 
             else:
 
-                print('[-] حدث خطاء في الابلاغ النوع - انتحار')
+                print('[-] rep xo kuzhi aka')
 
     if alr8m2 == '4':
 
-        print('[!] يفضل انك تستخدم حساب وهمي ..')
+        print('[!] acc daxl ka..')
 
-        username_login5 = input('[+] ادخل اليوزر لتسجيل الدخول ==> : ')
+        username_login5 = input('[+] user xot dane ==> : ')
 
-        password_login5 = input('[+] ادخل باسورد الحساب ==> : ')
+        password_login5 = input('[+] pass xot dane==> : ')
 
         url_login5 = 'https://www.instagram.com/accounts/login/ajax/'
 
@@ -872,19 +872,19 @@ if alr8m == '2':
 
             r.headers.update({'X-CSRFToken': req_login5.cookies['csrftoken']})
 
-            print('[+] تم تسجيل الدخول بنجاح ..')
+            print('[+] chuya zhurawa ..')
 
         else:
 
-            print('[+] اليوزر او الباسورد غلط')
+            print('[+] user pass xalata')
 
         sessionid5 = req_login5.cookies['sessionid']
 
-        print('[+] خش الرابط هاذا ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
+        print('[+] bro aw linka ==> : https://codeofaninja.com/tools/find-instagram-user-id/')
 
-        print('[+] واكتب يوزر الشخص وانسخ ايديه والصقه ..')
+        print('[+] nawe kabra dane id copy ka lawr ..')
 
-        idinsta5 = input('[+] ادخل ايدي الضحيه ==> : ')
+        idinsta5 = input('[+] id dane  ==> : ')
 
         url_report_3nf2 = f'https://www.instagram.com/users/{idinsta5}/report/'
 
@@ -942,10 +942,10 @@ if alr8m == '2':
 
             if '"description":"We take your reports seriously. We look into every issue, and take action when people violate our Community Guidelines","status":"ok"' in req_3nf:
 
-                print('[+] تم الابلاغ النوع - عنف')
+                print('[+] rep kra @shafo up')
 
                 time.sleep(3)
 
             else:
 
-                print('[-] حدث خطاء في الابلاغ نوع الابلاغ - عنف ')
+                print('[-] xajalatm nakra ')
