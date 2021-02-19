@@ -378,7 +378,7 @@ if alr8m == '2':
 
         print('[!] acc daxl ka ..')
 
-        username_login = input('[+] user bmusa ==> : ')
+        username_login = input('[+] user bnusa ==> : ')
 
         password_login = input('[+] pass bnusa ==> : ')
 
@@ -594,9 +594,9 @@ if alr8m == '2':
 
         print('[+] bro aw linka==> : https://codeofaninja.com/tools/find-instagram-user-id/')
 
-        print('[+] user xot ..')
+        print('[+] nawe kabra lawe bnusa id copy ka ..')
 
-        idinsta3 = input('[+] pass xot ==> : ')
+        idinsta3 = input('[+] id dane he kabra==> : ')
 
         url_report_self2 = f'https://www.instagram.com/users/{idinsta3}/report/'
 
